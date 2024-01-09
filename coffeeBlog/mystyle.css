@@ -1,0 +1,85 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*utilities*/
+main div{
+    margin-bottom: 2rem;
+}
+h2{
+    margin: 1rem 0;
+}
+/*header*/
+.site-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+/*main*/
+main{
+    width: 85%;
+    margin: auto;
+}
+.space{
+    margin-bottom: 1rem;
+}
+main img{
+    margin-bottom: 1rem;
+}
+main h2, main h3{
+    margin-left: 1rem;
+}
+.btn-read{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 8px 13px;
+    letter-spacing: 2px;
+}
+span{
+    font-weight: bold;
+}
+.btn-info{
+    color: white;
+    background-color: rgb(177, 98, 45);
+    text-transform: uppercase;
+    padding: 8px 13px;
+    letter-spacing: 2px;
+}
+
+/*footer*/
+.site-end{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background-size: cover;
+    height: 140px;
+    color: white;
+    align-items: center;
+}
+.title-end{
+    margin-top: 1rem;
+}
+.more-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
